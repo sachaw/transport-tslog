@@ -1,5 +1,5 @@
-import { ILogObjMeta } from "tslog";
 import { HyperDXLogger } from "@hyperdx/node-logger";
+import { ILogObjMeta } from "tslog";
 
 // TODO: Replace when LoggerOptions is exported
 export type LoggerOptions = {
