@@ -1,0 +1,32 @@
+{
+  "name": "@hyperdx/transport-tslog",
+  "version": "1.0.0",
+  "description": "HyperDX transport adapter for tslog",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "hyperdx tslog"
+  ],
+  "type": "module",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "biome": "^0.3.3",
+    "tslog": "^4.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@hyperdx/node-logger": "^0.3.1"
+  }
+}
