@@ -14,7 +14,7 @@ pnpm i @hyperdx/transport-tslog
 Instantiate & attach the the transport adapter.
 ```ts
 const options = { ... }
-const transport = new HyperDXtslog(options)
+const transport = new HyperDxtslog(options)
 const logger = new tslog({
   name: options.service,
 });

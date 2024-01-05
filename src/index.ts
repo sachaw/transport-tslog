@@ -11,7 +11,7 @@ export type LoggerOptions = {
   timeout?: number;
 };
 
-export class HyperDXtslog {
+export class HyperDxtslog {
   private readonly logger: HyperDXLogger;
 
   public registerTransport: (logObj: ILogObjMeta) => void;
